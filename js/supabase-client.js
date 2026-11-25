@@ -1,6 +1,6 @@
-const SUPABASE_URL = 'https://JOUW-PROJECT-ID.supabase.co';
-const SUPABASE_ANON_KEY = 'JOUW-ANON-KEY';
-const SITE_NAAM = '[SITE-NAAM]';
+const SUPABASE_URL = 'https://xunttpgvmhbslmgovxwb.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_kftJiOlk63KY6UZ47mzvwg_YFDz4_1P';
+const SITE_NAAM = 'Speel met Sterren';
 const BASE = document.documentElement.dataset.base || '';
 
 const db = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
