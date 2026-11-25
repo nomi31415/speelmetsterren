@@ -1,2 +1,0 @@
-# speelmetsterren
-versie 1
