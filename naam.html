@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0e2c">
+  <title>Hoe heet jij? – [SITE-NAAM]</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="leerling" data-pagina="naam">
+  <main class="kolom">
+    <h1>Hoe heet jij?</h1>
+    <p>Vul je voornaam in. Heeft een klasgenoot dezelfde voornaam? Zet er dan de eerste letter van je achternaam achter, bijvoorbeeld "Sanne V."</p>
+
+    <form id="naam-formulier" class="paneel" novalidate>
+      <label class="stap-label" for="naam">Je naam</label>
+      <input
+        id="naam"
+        name="naam"
+        class="veld"
+        type="text"
+        maxlength="30"
+        autocomplete="off"
+        autocapitalize="words"
+        spellcheck="false"
+        aria-describedby="naam-fout"
+      >
+      <p id="naam-fout" class="melding fout" role="alert" hidden></p>
+      <div class="knoppen" style="margin-top: 1.25rem">
+        <button type="submit" class="knop knop-groot">Naar de lessen</button>
+      </div>
+    </form>
+
+    <p><a class="tekstlink" href="index.html">Terug naar de code</a></p>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.112.3/dist/umd/supabase.js"></script>
+  <script src="js/supabase-client.js"></script>
+  <script src="js/student.js"></script>
+</body>
+</html>

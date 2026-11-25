@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uitleg – [SITE-NAAM]</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="docent" data-pagina="uitleg">
+  <header class="docent-kop">
+    <a class="docent-merk" href="dashboard.html" data-site-naam>[SITE-NAAM]</a>
+    <nav class="docent-nav" aria-label="Hoofdmenu">
+      <a href="dashboard.html">Klassen</a>
+      <a href="voortgang.html">Voortgang</a>
+      <a href="lessen.html">Lessen</a>
+      <a href="uitleg.html" aria-current="page">Uitleg</a>
+    </nav>
+    <p class="docent-gebruiker">
+      <span id="docent-email"></span>
+      <button id="uitlog-knop" type="button" class="knop knop-klein knop-secundair">Uitloggen</button>
+    </p>
+  </header>
+
+  <main class="docent-inhoud">
+    <h1>Uitleg voor docenten</h1>
+
+    <section class="kaart">
+      <h2>Wat is deze website?</h2>
+      <p><span data-site-naam>[SITE-NAAM]</span> is een lessenserie over sterrenkunde voor groep 7 en 8. Elke les heeft een korte tekst met afbeeldingen en een spel. Moeilijke woorden zijn aan te tikken, zodat leerlingen de uitleg direct zien. [Lorem ipsum dolor sit amet, hier komt een uitgebreidere beschrijving.]</p>
+    </section>
+
+    <section class="kaart">
+      <h2>Hoe werkt de klascode?</h2>
+      <p>Bij elke klas hoort een code van 6 tekens. Je geeft de code aan je leerlingen. Zij vullen de code in op de startpagina, controleren of de klas klopt en typen hun voornaam. Hoofdletters of kleine letters maken niet uit.</p>
+      <p>Aangemelde leerlingen blijven bewaard, zodat je altijd kunt zien wie er heeft meegedaan. Met "Nieuwe code genereren" maak je een nieuwe code. De oude code werkt dan niet meer, maar leerlingen die al zijn aangemeld blijven in de klas.</p>
+    </section>
+
+    <section class="kaart">
+      <h2>Welke lessen zien leerlingen?</h2>
+      <p>Jij kiest per klas het toegangsniveau:</p>
+      <ul>
+        <li><strong>Les 1:</strong> alleen les 1.</li>
+        <li><strong>Les 1 t/m 2:</strong> les 1 en 2.</li>
+        <li><strong>Les 1 t/m 3:</strong> les 1, 2 en 3.</li>
+        <li><strong>Volledige toegang:</strong> alle lessen, plus de zoekpagina en de verdiepingsartikelen.</li>
+      </ul>
+      <p>Je kunt het niveau op elk moment aanpassen, bijvoorbeeld na elke les een les extra openen.</p>
+    </section>
+
+    <section class="kaart">
+      <h2>Zo gebruik je de lessen in de klas</h2>
+      <ol>
+        <li>Maak een klas aan op de pagina Klassen en kies het toegangsniveau.</li>
+        <li>Geef de klascode aan je leerlingen, bijvoorbeeld op het bord.</li>
+        <li>Lees de aanwijzingen bij de les op de pagina Lessen.</li>
+        <li>Laat de leerlingen de les lezen en het spel spelen.</li>
+        <li>Bekijk daarna op de pagina Voortgang hoe het ging.</li>
+      </ol>
+      <p>[Lorem ipsum dolor sit amet, hier komen praktische tips en een voorbeeld van een lesindeling.]</p>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.112.3/dist/umd/supabase.js"></script>
+  <script src="../js/supabase-client.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
